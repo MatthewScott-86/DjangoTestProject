@@ -15,11 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.conf.urls import include, url
 from django.conf.urls.static import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from DjangoTestProject import TestFile
-from DjangoTestProject.TestFile import HomePageView
+from Site.TestFile import HomePageView
 from DjangoTestProject import settings
 
 admin.autodiscover()
